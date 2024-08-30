@@ -47,7 +47,7 @@ async function b1Clicked() {
         r = calculate(A, B)
         // console.log(JSON.stringify({r}))
         $("#theta").text(`Theta = ${r.theta} ± ${r.theta_std}`)
-        $("#delta").text(`Delta = ${r.delta} ± ${r.theta_std}`)
+        $("#delta").text(`Delta = ${r.delta} ± ${r.delta_std}`)
         if (i == count) {
             if (r != null) {
                 break
